@@ -4,7 +4,7 @@ class Shoe {
   final String id;
   final String name;
   final double price;
-  final String image; // đường dẫn asset, ví dụ: assets/images/airmax1.png
+  final String image; 
   const Shoe({
     required this.id,
     required this.name,
@@ -20,7 +20,7 @@ class CartItem {
   double get lineTotal => shoe.price * quantity;
 }
 
-// === Điền đúng tên file ảnh của bạn ở đây ===
+
 const _shoes = <Shoe>[
   Shoe(
     id: 'airmax1',
